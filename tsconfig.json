@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./build",
+        "module": "commonjs",
+        "moduleResolution": "Node",
+        "target": "ES2017",
+        "jsx": "preserve",
+        "strict": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictFunctionTypes": true,
+        "sourceMap": false,
+        "esModuleInterop": true,
+    },
+    "exclude": [
+        "tests",
+        "node_modules",
+        "**/node_modules/*",
+    ],
+}
